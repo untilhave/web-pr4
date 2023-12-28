@@ -2,11 +2,11 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.p_logo{
+.tagline{
     font-size: 30px;
 }
 
-.ul__link{
+.navigation{
     text-decoration: none;
     font-weight: 700;
     color: #BB2025;
@@ -31,14 +31,14 @@
     font-size: 20px;
 }
 
-.umbrella{
+.assortment{
     text-align: center;
 }
 
-.check_all{
+.more_assortment{
     text-align: center;
     color: #BB2025;
-    text-decoration: underline wavy;
+    text-decoration: wavy underline;
 }
 
 .contact{
@@ -70,7 +70,7 @@
     font-weight: 900;
 }
 
-.devilery{
+.delivery{
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     font-weight: 700;
@@ -104,13 +104,63 @@ footer{
     font-weight: 100;
 }
 
+form{
+    color: #BB2025;
+}
+
 .product-categories{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 30px;
     text-align: right;
+    background-color: rgba(136, 201, 255, 0.589);
 }
 
 .product-children__show_hide{
     color: #BB2025;
     text-decoration: none;
+}
+
+.menu{
+    list-style-type: none;
+}
+
+header{
+    background-image: url("../img/rain-drop-teresa-white.jpg");
+    background-size: 350px 240px;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+footer{
+    background: linear-gradient(90deg, rgba(216,147,154,1) 46%, rgba(187,32,37,1) 100%)
+}
+
+.index-banner{
+    opacity: 0.6;
+    width: 100%;
+}
+
+.order-form{
+    background-image: url(../img/background.jpg);
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.delivery-services{
+list-style: url("../img/icons8-truck-loading-32.png");
+}
+
+.delivery-services__logo{
+    width: 200px;
+}
+
+.products-children__img{
+    width: 200px;
+    height: 200px;
+}
+
+.products{
+    text-align: center;
 }
